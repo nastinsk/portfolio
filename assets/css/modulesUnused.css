@@ -1,0 +1,51 @@
+/* Image */
+.image.left {
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.image.centered {
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+    .image.centered img {
+        margin: 0 auto;
+        width: auto;
+    }
+
+
+
+/* Table */
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+    table tbody tr:nth-child(2n+2) {
+        background: #f4f4f4;
+    }
+
+    table td {
+        padding: 0.5em 1em 0.5em 1em;
+    }
+
+    table th {
+        text-align: left;
+        padding: 0.5em 1em 0.5em 1em;
+        color: #fff;
+        background: #222729 url("images/overlay.png");
+    }
+
+    table thead {
+        background: #444;
+        color: #fff;
+    }
+
+    table tfoot {
+        background: #eee;
+    }
+
+
+   

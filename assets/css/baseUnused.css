@@ -1,0 +1,63 @@
+
+/*///////////// what is it for? Can't find it in index.html ////////////////*/ blockquote, q { 
+	quotes: none;
+}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+    }
+    
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}    
+
+mark {
+	background-color: transparent;
+	color: inherit;
+} 
+/* //////////////////////////////////////// */
+
+/* ///////////there is no <sub> or <sup> or <hr> or <blockquote> elements on this page ///////*/
+sub {
+    position: relative;
+    top: 0.5em;
+    font-size: 0.8em;
+}
+
+sup {
+    position: relative;
+    top: -0.5em;
+    font-size: 0.8em;
+}
+
+hr {
+    border: 0;
+    border-top: solid 1px #ddd;
+}
+
+blockquote {
+    border-left: solid 0.5em #ddd;
+    padding: 1em 0 1em 2em;
+    font-style: italic;
+}
+/* /////////////////////// */
+
+/* can't find it in the html */
+br.clear {
+    clear: both;
+}
+
+/* List */
+
+ol {
+    list-style: decimal;
+    padding-left: 1.25em;
+}
+
+    ol li {
+        padding-left: 0.25em;
+    }
+
+

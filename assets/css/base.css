@@ -1,4 +1,4 @@
-/* @import url("font-awesome.min.css");
+ @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /*
@@ -37,31 +37,9 @@ ol, ul {
     list-style: none;
 }
 
-/*///////////// what is it for? Can't find it in index.html ////////////////*/ blockquote, q { 
-	quotes: none;
-}
-
-	blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
-		content: none;
-    }
-    
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}    
-
-mark {
-	background-color: transparent;
-	color: inherit;
-} */
-/* //////////////////////////////////////// */
-
 body {
 	-webkit-text-size-adjust: none;
 }
-
-
 
 input::-moz-focus-inner {
 	border: 0;
@@ -170,37 +148,47 @@ a {
         border-bottom-color: rgba(255, 255, 255, 0);
     }
 
-/* ///////////there is no <sub> or <sup> or <hr> or <blockquote> elements on this page ///////*/
-sub {
-    position: relative;
-    top: 0.5em;
-    font-size: 0.8em;
-}
-
-sup {
-    position: relative;
-    top: -0.5em;
-    font-size: 0.8em;
-}
-
-hr {
-    border: 0;
-    border-top: solid 1px #ddd;
-}
-
-blockquote {
-    border-left: solid 0.5em #ddd;
-    padding: 1em 0 1em 2em;
-    font-style: italic;
-}
-/* /////////////////////// */
-
 /* no ol, dl, table on the page  only p and ul*/
 p, ul, ol, dl, table {
     margin-bottom: 2em;
 }
 
-/* can't find it in the html */
-br.clear {
-    clear: both;
+/* List */
+
+ul {
+    list-style: disc;
+    padding-left: 1em;
 }
+
+    ul li {
+        padding-left: 0.5em;
+    }
+
+
+/* Wide */
+
+	@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+		/* Basic */
+
+			body, input, textarea, select {
+				font-size: 17pt;
+            }
+    }
+
+/* Narrow */
+
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+    /* Basic */
+
+        body, input, textarea, select {
+            font-size: 16pt;
+        }
+
+        .container {
+            padding: 0 2em 0 2em;
+        }
+    }
+
+
