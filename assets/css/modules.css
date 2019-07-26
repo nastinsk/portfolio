@@ -374,3 +374,103 @@ color: rgba(255, 255, 255, 0.75);
             margin-bottom: 20px;
         }
 }
+
+/* not sure why it works only in modules not in layout */
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+    /* Header */
+
+        #logo .image {
+            position: relative;
+            margin: 0 0 0.5em 0;
+        }
+
+        #nav ul li a {
+            font-size: 0.8em;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+        }
+
+            #nav ul li a span {
+                padding-right: 2.25em;
+            }
+
+                #nav ul li a span:before {
+                    left: 100%;
+                    margin-left: -1.25em;
+                    line-height: 2.25em;
+                } 
+
+}     
+
+/* Narrower */
+
+	
+
+@media screen and (max-width: 960px) {
+    /* Item */
+
+			.item {
+				margin-bottom: 15px;
+			}
+
+		/* Icons */
+
+			ul.icons a {
+				width: 1.75em;
+				font-size: 1.25em;
+			}
+
+}
+
+
+/* Narrower */
+@media screen and (max-width: 960px) {
+    /* Header */
+    #logo {
+        margin: 1.5em 1.25em 1.25em 1.25em;
+    }
+
+    #nav ul li a {
+        padding: 0.5em 1.25em 0.5em 1.25em;
+    }
+
+    /* Main */
+
+    #main > section {
+        padding: 3em 0;
+    }
+
+    #main section.cover {
+        padding: 4em 0;
+    }
+}
+
+
+
+/* Mobile */
+
+@media screen and (max-width: 736px) {
+
+    /* List */
+
+        ul.icons a {
+            width: 2em;
+            font-size: 1.25em;
+        }
+    /* Main */
+
+			#main > section {
+				padding: 2em 0;
+			}
+
+			#main section.cover {
+				padding: 4em 0em;
+			}
+
+				#main section.cover header {
+					padding: 0 1em;
+				}
+
+}
+
