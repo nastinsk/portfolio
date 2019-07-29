@@ -1,5 +1,10 @@
 /* Image */
 
+#portfolio{
+    margin-top: 12em;
+    padding-top:10em;
+}
+
 .image {
     display: inline-block;
     border: 0;
@@ -301,13 +306,13 @@ color: rgb(255, 255, 255);
 
 
 #main > section.cover {
-    padding: 10em 0;
+    padding: 8em 0;
     background-size: cover;
     background-position: center center;
 }
 
 #main > section.one {
-    background-color: #81918E;
+    /* background-color: #81918E; */
     
     /* background-image: url("../../images/laptop.jpg"); */
 }
@@ -354,7 +359,7 @@ color: rgb(255, 255, 255);
         }
 
         #main section.cover {
-            padding: 5em 0;
+            padding: 3em 0;
         }
 
 }
@@ -468,7 +473,7 @@ color: rgb(255, 255, 255);
 			}
 
 			#main section.cover {
-				padding: 4em 0em;
+				padding: 2em 0em;
 			}
 
 				#main section.cover header {
