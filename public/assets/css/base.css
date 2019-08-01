@@ -232,10 +232,8 @@ ul {
 			}
     }              
 
-    /* Narrower */
-
-
-	@media screen and (max-width: 960px) {
+    /* Tablet */
+@media screen and (min-width: 736px) and (max-width: 961px)  {
 
 		/* Basic */
 
