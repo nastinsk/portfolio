@@ -16,7 +16,6 @@ Design template from: https://html5up.net/
 
 ***
 
-
 # Feature #2: Modify the contents
 ***
 ## As a user, I want to view a unique portfolio so that the skills and personality of the developer are portrayed.
@@ -26,6 +25,32 @@ Design template from: https://html5up.net/
 * Finish time: **0:20am**
 * Actual time needed to complete: **2 hour, 20 minutes**
 
+***
+
+# Feature #3: Replacing all internal links with CDN links for libraries
+***
+* Estimate of time needed to complete: **1 hour**
+* Start time: **10:00pm**
+* Finish time: **10:15pm**
+* Actual time needed to complete: **15 minutes**
+
+***
+
+# Feature #4: Tablet view with fixed navigation menu
+***
+* Estimate of time needed to complete: **3 hours**
+* Start time: **9:00pm**
+* Finish time: **11:10am**
+* Actual time needed to complete: **2 hour, 10 minutes**
+
+***
+
+# Feature #5: Convert the large image at the top of portfolio to a video background 
+***
+* Estimate of time needed to complete: **2 hours**
+* Start time: **7:00pm**
+* Finish time: **10:00pm**
+* Actual time needed to complete: **3 hours**
 
 ***
 
