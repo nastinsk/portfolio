@@ -456,6 +456,7 @@ and (max-width: 961px)  {
     }
 
     #main section.cover {
+        /* text-align: center; */
         padding: 4em 0;
     }
 }

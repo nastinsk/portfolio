@@ -410,7 +410,7 @@ section, article {
 /* Footer */
 
 #footer {
-    margin-left: 375px;
+    margin-left: 20%;
     text-align: center;
     background-color: #dce3e2;
     padding: 3em 0 4em 0;
@@ -440,7 +440,7 @@ section, article {
     /* Main */
 
 	#main {
-		margin-left: 375px;
+		margin-left: 20%;
     }
     
     /* Wide */
